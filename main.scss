@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nobile:400,700&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: #0a0b0a;
+    font-family: Nobile;
+}
+
+*, *:before, *:before{
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 2em;
+    height: 100vh;
+
+    &:first-child{
+        display: grid;
+        grid-template-rows: 10% 30% auto;
+    }
+}
+
+.mountains, .girl{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.mountains{
+    top: 0;
+}
+.girl{
+    top: 5%;
+}
