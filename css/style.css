@@ -34,7 +34,7 @@ p{
 }
 
 .line{
-    top: 20%;
+/*     top: 20%; */
     align-self: end;
     width: 50%;
     border-right: 1px solid white;
